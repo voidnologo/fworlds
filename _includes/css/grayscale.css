@@ -140,7 +140,7 @@ a:focus {
     text-align: center;
     color: #fff;
     text-shadow: 0px 2px 3px #333;
-    background: url(/img/intro-bg.png) no-repeat bottom center scroll;
+    background: url(./img/intro-bg.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
