@@ -397,3 +397,13 @@ body {
 .content-panel footer {
     background-color: #232323;
 }
+
+/* Enable pointer events only on content columns */
+.content-panel {
+    pointer-events: none;
+}
+.content-panel .col-lg-8,
+.content-panel .col-md-8,
+.content-panel footer {
+    pointer-events: auto;
+}
