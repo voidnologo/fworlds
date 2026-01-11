@@ -368,3 +368,32 @@ body {
     50% { opacity: 1; transform: translateY(-1rem); }
     to { opacity: .4; transform: translateY(0); }
 }
+
+/* Fix: Allow mouse interaction with particles */
+.splash-section {
+    pointer-events: none;
+}
+.splash-section a,
+.splash-section button {
+    pointer-events: auto;
+}
+
+/* Fix: Only center column has solid background, margins show particles */
+.content-panel {
+    background-color: transparent;
+}
+.content-panel .col-lg-8,
+.content-panel .col-md-8 {
+    background-color: #232323;
+}
+
+/* Override intro background to show particles */
+.intro.splash-section {
+    background: transparent;
+    background-color: transparent;
+}
+
+/* Footer background */
+.content-panel footer {
+    background-color: #232323;
+}
