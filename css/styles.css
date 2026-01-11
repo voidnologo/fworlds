@@ -407,3 +407,19 @@ body {
 .content-panel footer {
     pointer-events: auto;
 }
+
+/* NEW: Flipped z-index approach for interactive particles */
+#particles-js {
+    z-index: 10;
+    pointer-events: none;
+}
+
+.splash-section {
+    z-index: 20;
+    pointer-events: auto;
+}
+
+.content-panel {
+    z-index: 20;
+    pointer-events: auto;
+}
